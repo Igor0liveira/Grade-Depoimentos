@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+}
+
+.fundo{
+    background-color: var(--color-neutral-one);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: aqua;
+    width: 80%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "dep1 dep2 dep5"
+    "dep3 dep4 dep5";
+    grid-gap: 3rem;
+}
+
+.container .dep1{
+    grid-area: dep1;
+    background-color: var(--color-primary-one);
+}
+
+.container .dep2{
+    grid-area: dep2;
+    background-color: var(--color-primary-one);
+}
+
+.container .dep3{
+    grid-area: dep3;
+    background-color: var(--color-primary-one);
+}
+
+.container .dep4{
+    grid-area: dep4;
+    background-color: var(--color-primary-one);
+}
+
+.container .dep5{
+    grid-area: dep5;
+    background-color: var(--color-primary-one);
+}
+
+.container .dep1, .dep2, .dep3, .dep4, .dep5{
+    border-radius: 1rem;
+    padding: 1.2rem;
+}
+
+.container .user
