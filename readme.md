@@ -1,6 +1,6 @@
 # Frontend Mentor - Grade de Depoimentos
 
-<p><b>Esta é uma solucção para o desafio do site Frontend Mentor, onde estou desenvolvendo minhas habilidades de HTML e CSS.</b></p>
+<p><b>Esta é uma solução para o desafio do site Frontend Mentor, onde estou desenvolvendo minhas habilidades de HTML e CSS.</b></p>
 
 ## Visão Geral 👀
 
